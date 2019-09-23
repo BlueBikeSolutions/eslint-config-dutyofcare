@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
