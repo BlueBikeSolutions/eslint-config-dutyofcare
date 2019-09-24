@@ -2,6 +2,7 @@
 
 plugins:
   - import
+  - "@getify/proper-arrows"
 rules:
   semi: ["warn", "always"]
 
@@ -56,6 +57,10 @@ rules:
     - blankLine: always
       prev: ["*"]
       next: ["function", "export", "class"]
+
+  "@getify/proper-arrows/return":
+    - "warn"
+    - chained: true
 
 
   # TODO: Fix these, downgraded to warnings for now
