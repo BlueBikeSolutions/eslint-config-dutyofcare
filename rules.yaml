@@ -48,6 +48,10 @@ rules:
 
   no-continue: ["off"]
 
+  # We shouldn't await things in series when they could be parallell, however
+  # there are many use cases for awaiting in a loop, e.g., fallbacks, retries...
+  no-await-in-loop: ["off"]
+
   # Perhaps later, but would be nicer to limit complexity rather than length
   max-len: ["off"]
 
